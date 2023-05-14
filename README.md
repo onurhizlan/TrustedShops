@@ -13,12 +13,13 @@ The challenge for the current task is to generate automated tests for the follow
 ### How to Execute the Test
 
 * The setups at the bottom of the page are followed to run the project.
+* The dependencies in the Maven pom.xml file are checked.
 * Related test cases are accessed from TestChrome.xml file. 
 * TestFirefox.xml file can be run to test cases in Firefox browser. TestEdge.xml file can be run to test cases in Edge browser. TestChrome.xml file can be run to test cases in Chrome browser.
 * The test run starts by running the selected xml file.
 *  The relevant test cases start the running in sequential or parallel with the start of the selected xml file(TestChrome.xml).
 * The result of the test running could be accessed from the console or from the TrustedShopsTask\target\surefire-reports\emailable-report.html(for .html report the project must be run as maven).
-
+* In addition, the attached screenshots can be examined to run the project.
 
 ## Getting Your Development Environment Setup
 ### Recommended Versions
